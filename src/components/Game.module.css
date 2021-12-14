@@ -1,0 +1,38 @@
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background: #1B424D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.startButton {
+    margin: 20px 0;
+    cursor: pointer;
+    width: 200px;
+    height: 35px;
+    color: white;
+    outline: none;
+    background-color: #1B424D;
+    border: 1px solid white;
+}
+
+.startButton:hover {
+    background-color: aquamarine;
+    transition: .3s all ease;
+    color: black;
+}
+
+.whoIsNext {
+    display: flex;
+    margin: 20px 0;
+    width: 200px;
+    height: 35px;
+    color: white;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
